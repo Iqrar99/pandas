@@ -214,7 +214,7 @@ func : callable or tuple of (callable, str)
     a `(callable, data_keyword)` tuple where `data_keyword` is a
     string indicating the keyword of `callable` that expects the
     %(klass)s object.
-args : iterable, optional
+*args : iterable, optional
     Positional arguments passed into `func`.
 **kwargs : dict, optional
     A dictionary of keyword arguments passed into `func`.
@@ -222,7 +222,7 @@ args : iterable, optional
 Returns
 -------
 object
-    the return type of `func`.
+    The return type of `func`.
 
 See Also
 --------
